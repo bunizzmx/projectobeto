@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagen_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hamburguesa_godzilla"
+        android:contentDescription="TODO">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bebida_2"
+        android:layout_marginLeft="200dp"
+        android:contentDescription="TODO">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/texto_1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagen_1"
+        android:text="Godzilla Big Angus"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/texto_2"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_1"
+        android:text="Una monstruosa hamburguesa, con triple carne Angus, triple queso americano y mucho tocino en pan recien horneado."
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/porciento_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-50%"
+        android:textColor="#0625EA"
+        android:textSize="10sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/texto_2"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/precio_11"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="$283.00"
+        android:layout_below="@+id/porciento_10"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/texto_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/precio_11"
+        android:text="elige tus extras"
+        android:textSize="11sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/texto_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_3"
+        android:text="Carne extra"
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        ></TextView>
+
+    <RadioButton
+        android:id="@+id/radioButton_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/texto_3"
+        />
+
+    <TextView
+        android:id="@+id/texto_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_4"
+        android:text="Tocino"
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="15dp"
+        ></TextView>
+
+    <RadioButton
+        android:id="@+id/radioButton_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/texto_4"
+        />
+
+    <TextView
+        android:id="@+id/texto_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_5"
+        android:text="Pollo BBQ"
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        ></TextView>
+
+    <RadioButton
+        android:id="@+id/radioButton_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/texto_5"
+        />
+
+
+</RelativeLayout>
